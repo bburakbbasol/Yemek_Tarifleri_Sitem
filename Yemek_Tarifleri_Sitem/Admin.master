@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+
+    <link href="kullanici.css" rel="stylesheet" />    
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 160px;
+            width: 800px;
+            margin-left: 500px;
+            background-color: #99FFCC;
+        }
+
+        .auto-style11 {
+            color: #000000;
+            height: auto;
+            width: 178px;
+            float: left;
+            background-color: #CCFFFF;
+        }
+        .auto-style16 {
+            height: auto;
+            width: 571px;
+            float: left;
+            background-color: #66FFFF;
+        }
+        .auto-style17 {
+            height: 423px;
+            width: 805px;
+        }
+        .auto-style19 {
+            height: 20px;
+            width: 800px;
+        }
+        .auto-style20 {
+            width: 100%;
+            background-color: #00FFFF;
+        }
+        .auto-style21 {
+            height: 23px;
+            width: 172px;
+        }
+        .auto-style22 {
+            width: 172px;
+        }
+        .auto-style23 {
+            background-color: #009999;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="auto-style1" style="background-color:aquamarine;">
+      
+        <asp:Image ID="Image1" runat="server" Height="160px" ImageUrl="~/Resimler/360_F_428758061_ek11EXglWYZylVDnSwPmGGoSJYZ4firA.jpg" Width="799px" CssClass="auto-style23" />
+      
+    </div>
+        <div style="margin-left:500px;background-color:white;" class="auto-style19">&nbsp;</div>
+        
+        
+        <div style="margin-left:500px;" class="auto-style17">
+
+            <div ; class="auto-style11">
+                <table class="auto-style20">
+                    <tr>
+                        <td class="auto-style22"><strong>MENÜLER</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style22">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style21" style="border: thin groove #0000CC"><a href="KategorilerAdmin.aspx">KATEGORİLER</a> </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style21" style="border: thin groove #0000CC"><a href="Yemekler.aspx">YEMEKLER</a></td>
+                    <tr>
+                        <td class="auto-style21" style="border: thin groove #0000CC"><a href="Yorumlar.aspx?">YORUMLAR</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style22" style="border: thin groove #0000CC"><a href="Mesajlar.aspx"> MESAJLAR</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style22" style="border: thin groove #0000CC"><a href="GununYemegiAdmin.aspx"> GÜNÜN YEMEĞİ</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style22" style="border: thin groove #0000CC"><a href="Tarifler.aspx?">ÖNERİLER</a></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style21" style="border: thin groove #0000CC"><a href="HakkımızdaAdmin.aspx?"> HAKKIMIZDA</a> </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style22">&nbsp;</td>
+                    </tr>
+                </table>
+                
+            </div>
+            <div style="margin-left:50px;" class="auto-style16"> 
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+
+
+
+
+        <
+      
+     
+
+    </form>
+</body>
+</html>
+ 
